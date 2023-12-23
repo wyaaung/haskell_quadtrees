@@ -1,10 +1,10 @@
 
 -- This file is used to test your submission
 -- More testing examples will be provided on Blackboard
--- It needs to be pasted after your submission, which is what the script test.sh does
+-- It needs to be pasted, which is what the script test.sh does
 -- before compiling and running
 
--- texting 2
+-- testing 2
 
 -- single cells
 
@@ -108,12 +108,11 @@ mid_r = (mid_o == (blur mid_i))
 
 
 main =     mainS
-        >> putStrLn(if single_r  then "Joe: Single cell check for ex2 passed!" else "ERROR: Single cell check for ex2 FAILED!")
-        >> putStrLn(if str2a_r then "Joe: 4 cell striped check for ex2 passed!" else "ERROR: 4 cell striped check for ex2 FAILED!")
-        >> putStrLn(if str3b_r then "Joe: 10 cell striped  check for ex2 passed!" else "ERROR: 10 cell striped check for ex2 FAILED!")
-        >> putStrLn(if str4b_r then "Joe: 16 cell striped check for ex2 passed!" else "ERROR: 16 cell striped check for ex2 FAILED!")
-        >> putStrLn(if str_mid_r then "Joe: big striped check for ex2 passed!" else "ERROR: big striped check for ex2 FAILED!")
-        >> putStrLn(if str2b_r then "Joe: 4 cell not striped check for ex2 passed!" else "ERROR: 4 cell not striped check for ex2 FAILED!")
-        >> putStrLn(if mid_r then "Joe: medium size not striped check for ex2 passed!" else "ERROR: medium size not striped check for ex2 FAILED!")
-        >> mainE
+        >> putStrLn(if single_r  then "4:\t Single cell check for ex2 passed!" else "ERROR: Single cell check for ex2 FAILED!")
+        >> putStrLn(if str2a_r then "5:\t 4 cell striped check for ex2 passed!" else "ERROR: 4 cell striped check for ex2 FAILED!")
+        >> putStrLn(if str3b_r then "6:\t 10 cell striped  check for ex2 passed!" else "ERROR: 10 cell striped check for ex2 FAILED!")
+        >> putStrLn(if str4b_r then "7:\t 16 cell striped check for ex2 passed!" else "ERROR: 16 cell striped check for ex2 FAILED!")
+        >> putStrLn(if str_mid_r then "8:\t big striped check for ex2 passed!" else "ERROR: big striped check for ex2 FAILED!")
+        >> putStrLn(if str2b_r then "9:\t 4 cell not striped check for ex2 passed!" else "ERROR: 4 cell not striped check for ex2 FAILED!")
+        >> putStrLn(if mid_r then "10:\t medium size not striped check for ex2 passed!" else "ERROR: medium size not striped check for ex2 FAILED!")
 --

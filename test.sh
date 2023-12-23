@@ -33,14 +33,6 @@ if [ -f quadtree.hs ]; then
     rm temp_file
   fi
 
-  echo "Joe: If any line above does not begin with 'Joe:' there is a problem ..."
-  echo "Joe: ...with the format of your submission, and it may get 0 marks."
-  echo "Joe: Make sure you have added all the files you need to, and committed."
-  echo "Joe: If your submission is ready to be marked, make sure it is tagged correctly."
-  echo "Joe: Here are the files currently added (not necessarily committed!):"
-
-  git ls-files
-
 else
   echo "ERROR: The file quadtree.hs does not exist!"
   echo "ERROR: Check your filenames!"
